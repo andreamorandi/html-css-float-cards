@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card{
+    width: calc((100% / 3) - (4em / 3));
+    background-color: #0f0e17;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    color: white;
+}
+
+.card:nth-child(3){
+    margin-right: 0;
+}
+
+.card:last-child{
+    margin-right: 0;
+}
+
+.card img{
+    width: 100px;
+    float: left;
+}
+
+.bio{
+    padding: 10px 10px 10px 110px;
+}
+
+.bio *{
+    padding: 3px;
+}
+
+.bio p:last-child{
+    color: #4dccf2;
+}
