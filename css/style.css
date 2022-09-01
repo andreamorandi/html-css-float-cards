@@ -22,6 +22,12 @@ html{
     text-align: left;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .card{
     width: calc((100% / 3) - (4em / 3));
     background-color: #0f0e17;
