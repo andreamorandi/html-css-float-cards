@@ -9,8 +9,17 @@ html{
 }
 
 .container{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.title *{
+    margin: 50px 0;
+}
+
+.cards-section{
+    text-align: left;
 }
 
 .card{
@@ -45,4 +54,10 @@ html{
 
 .bio p:last-child{
     color: #4dccf2;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #e53170;
 }
