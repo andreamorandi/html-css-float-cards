@@ -35,6 +35,14 @@ html{
     margin-right: 2em;
     margin-bottom: 3em;
     color: white;
+    box-shadow: 0 0 10px 1px black;
+    /* 
+        IN ORDINE:  #POSIZIONE ORIZZONTALE (-SINISTRA , +DESTRA)
+                    #POSIZIONE VERTICALE (-SU' , +GIU')
+                    #SFOCATURA (IN PX , DA 0 IN POI)
+                    #DIFFUSIONE (DIMENSIONE OCCUPATA IN PX)
+                    https://toolset.mrw.it/css/css3-box-shadow.html
+    */
 }
 
 .card:nth-child(3){
